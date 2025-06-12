@@ -4,7 +4,6 @@ import numpy as np
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 from model import X_train
-# Import preprocessing functions from your script (ensure the script is saved in the same directory)
 from data_preprocessing import (
     extract_audio_features, 
     extract_formant_features, 
@@ -143,13 +142,13 @@ def test_single_participant(wav_file, formant_csv, covarep_csv, transcript_file,
 
 if __name__ == "__main__":
     # Set the paths for files and the saved model
-    model_path = r"C:\Users\nandi\Desktop\nandini\Program\Mini project\best_ensemble_model.pkl"  # Update with the actual path to your saved model
-    scaler_path = r"C:\Users\nandi\Desktop\nandini\Program\Mini project\scaler.pkl"  # Path to saved scaler
-    pca_path = r"C:\Users\nandi\Desktop\nandini\Program\Mini project\pca.pkl"  # Path to saved PCA
-    wav_file = r"C:\Users\nandi\Downloads\310_P\310_AUDIO.wav"
-    formant_csv = r"C:\Users\nandi\Downloads\310_P\310_FORMANT.csv"
-    covarep_csv = r"C:\Users\nandi\Downloads\310_P\310_COVAREP.csv"
-    transcript_file = r"C:\Users\nandi\Downloads\310_P\310_TRANSCRIPT.csv"
+    model_path = r"best_ensemble_model.pkl"  
+    scaler_path = r"scaler.pkl" 
+    pca_path = r"pca.pkl"  
+    wav_file = r"Downloads\310_P\310_AUDIO.wav"
+    formant_csv = r"Downloads\310_P\310_FORMANT.csv"
+    covarep_csv = r"C:Downloads\310_P\310_COVAREP.csv"
+    transcript_file = r"Downloads\310_P\310_TRANSCRIPT.csv"
     # Load the pretrained model
     model = load_model(model_path)
     
