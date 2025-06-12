@@ -48,7 +48,7 @@ Clone the repository
 
 ```bash
 git clone https://github.com/NandiniJaiswal05/Fake-Depression-Detection-Using-Speech-Analysis.git
-cd ManoVani
+cd Fake-Depression-Detection-Using-Speech-Analysis
 ```
 Install dependencies
 ```bash
