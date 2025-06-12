@@ -35,7 +35,9 @@ graph TD;
     D --> E[Depression Classification]
     E --> F[Voice Response Output]
 ```
+
 📁Project Overview
+
 ```graphql
 ManoVani/
 ├── main.py                  # Core execution logic
@@ -52,6 +54,7 @@ ManoVani/
 ├── _config.yml              # GitHub Pages theme config
 └── LICENSE                  # MIT License
 ```
+
 🛠️ Tech Stack
 Python 3.11+
 
@@ -113,4 +116,4 @@ Docker/Android Deployment
 
 🔗 Live GitHub Pages
 Once deployed:
-📍 https://NandiniJaiswal05.github.io/ManoVani
+📍 https://NandiniJaiswal05.github.io/Fake-Depression-Detection-Using-Speech-Analysis
