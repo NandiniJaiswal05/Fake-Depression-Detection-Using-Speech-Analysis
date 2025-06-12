@@ -47,7 +47,7 @@ ManoVani/
 Clone the repository
 
 ```bash
-git clone https://github.com/NandiniJaiswal05/ManoVani.git
+git clone https://github.com/NandiniJaiswal05/Fake-Depression-Detection-Using-Speech-Analysis.git
 cd ManoVani
 ```
 Install dependencies
@@ -97,7 +97,7 @@ Response is saved and played from response.mp3.
 
 ## 🌐 GitHub Pages Deployment
 Project is also accessible via GitHub Pages:
-📍 https://NandiniJaiswal05.github.io/ManoVani
+📍 [https://NandiniJaiswal05.github.io/ManoVani](https://nandinijaiswal05.github.io/Fake-Depression-Detection-Using-Speech-Analysis/)
 
 💡 Future Enhancements
 - ✅ Multilingual support (Hindi, Marathi)
