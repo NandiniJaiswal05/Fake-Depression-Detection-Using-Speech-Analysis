@@ -27,13 +27,16 @@ This project aims to assist early mental health diagnosis using machine learning
 
 ## 🧠 System Flow
 
-```graph TD
+```mermaid
+graph TD;
     A[Voice/Text Input] --> B[Feature Extraction]
     B --> C[Scaling + PCA]
     C --> D[NBTree Model]
     D --> E[Depression Classification]
     E --> F[Voice Response Output]
-
+```
+📁Project Overview
+```graphql
 ManoVani/
 ├── main.py                  # Core execution logic
 ├── sakhi.py                 # Voice interaction module
