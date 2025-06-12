@@ -33,7 +33,7 @@ This project aims to assist early mental health diagnosis using machine learning
     C --> D[NBTree Model]
     D --> E[Depression Classification]
     E --> F[Voice Response Output]
-  ```
+```
 📁 Project Structure
 ```graphql
 ManoVani/
@@ -66,7 +66,7 @@ DAIC-WOZ Dataset
 Clone the repository:
 
 ```bash
-git clone https://github.com/NandiniJaiswal05/ManoVani.git
+git clone https://github.com/NandiniJaiswal05/Fake-Depression-Detection-Using-Speech-Analysis.git
 cd ManoVani
 ```
 Install dependencies:
