@@ -1,0 +1,5 @@
+theme: jekyll-theme-cayman
+title: ManoVani
+description: An AI-powered conversational assistant for early-stage depression detection.
+show_downloads: true
+google_analytics: 
