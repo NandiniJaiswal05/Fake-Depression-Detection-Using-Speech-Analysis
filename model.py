@@ -10,7 +10,7 @@ from sklearn.decomposition import PCA
 from imblearn.over_sampling import SMOTE
 
 # Load Processed Data
-with open(r"C:\Users\nandi\Desktop\nandini\Program\Mini project\processed_data.pkl", 'rb') as f:
+with open(r"processed_data.pkl", 'rb') as f:
     processed_data, participant_ids = pickle.load(f)
 
 # Split the processed data into features (X) and labels (y)
